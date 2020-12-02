@@ -18,7 +18,7 @@ plt.ylabel("Values", fontsize=12)
 plt.tick_params(axis='both', which='major', labelsize=14)
 
 plt.axis([0, 5000, 0, 125000000000])
-#
-# plt.savefig('squares_plot.png', bbox_inches='tight')
+
+plt.savefig('squares_plot.png', bbox_inches='tight')
 
 plt.show()
